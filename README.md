@@ -23,7 +23,7 @@ sudo pacman -S --needed clang lld cmake ninja \
                      glfw-wayland spdlog fmt
 
 # Clone & build
-git clone https://github.com/yourname/EnigmaEngine.git
+git clone https://github.com/mario-ah-salamanca/EnigmaEngine.git
 cd EnigmaEngine
 cmake -B build -G Ninja
 cmake --build build
